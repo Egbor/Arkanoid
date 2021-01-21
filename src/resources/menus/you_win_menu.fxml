@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="748.0" prefWidth="546.0" style="-fx-background-color: black;" stylesheets="@css/font.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.engine.menus.YouWinMenu">
+   <children>
+      <VBox layoutX="190.0" layoutY="388.0" prefHeight="61.0" prefWidth="167.0">
+         <children>
+            <Button fx:id="btnEndGame" alignment="CENTER" focusTraversable="false" mnemonicParsing="false" onAction="#onEndGameButtonClick" prefHeight="38.0" prefWidth="259.0" style="-fx-background-color: Black;" text="End Game" textFill="WHITE" />
+         </children>
+      </VBox>
+      <Label layoutX="219.0" layoutY="281.0" text="You Win!" textFill="WHITE">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

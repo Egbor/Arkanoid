@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="748.0" prefWidth="546.0" spacing="45.0" style="-fx-background-color: Black;" stylesheets="@css/font.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.engine.menus.AboutMenu">
+   <children>
+      <ImageView fitHeight="162.0" fitWidth="523.0">
+         <image>
+            <Image url="@../Arkanoid-logo.svg.png" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" focusTraversable="false" pickOnBounds="false" prefHeight="92.0" prefWidth="546.0" style="-fx-control-inner-background: Black; -fx-text-box-border: Black; -fx-focus-color: transparent; -fx-faint-focus-color: transparent;" stylesheets="@css/textarea.css" text=" This program is course project.&#10; It was written by a first year student,&#10; group 951009, Egor Borsukov" />
+      <Button fx:id="btnBack" mnemonicParsing="false" onAction="#onBackButtonClick" prefHeight="32.0" prefWidth="83.0" style="-fx-background-color: Black;" text="Back" textFill="WHITE" />
+   </children>
+</VBox>

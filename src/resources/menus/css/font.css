@@ -1,0 +1,16 @@
+@font-face {
+    font-family: '8-bit pusab';
+    src: url(../fonts/8-bit-pusab.ttf);
+}
+
+.button:hover {
+    -fx-text-fill: Yellow;
+}
+
+.text {
+    -fx-font-family: "8-bit pusab";
+}
+
+.text-area {
+    -fx-font-family: "8-bit pusab";
+}
